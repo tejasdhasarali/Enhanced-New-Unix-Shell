@@ -8,10 +8,3 @@
 * The path can be set for myls command using the set, which is built inside the application. The command for setting the path is " set MYPATH=*path* ", which creates a text file called MyPath and saves the path.
 
 * The application also supports piped commands, IO redirection, and background command execution.
-
-
-Limitation:
-    * Double quotes and single quote are not supported.
-    * '&' for a background process is the only special command supported.
-    * Built-in Commands can be executed only in foreground.
-    * Piped commands cannot be compounded with IO redirection and background process.
